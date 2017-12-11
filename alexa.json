@@ -1,0 +1,95 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "string",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Futurama",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bob's Burgers",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rick and Morty",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Simpson's",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "We Bare Bears",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "PlayClipFrom",
+        "samples": [
+          "Play a clip from {AMAZON.TVSeries}",
+          "Play something from {AMAZON.TVSeries}",
+          "Play {AMAZON.TVSeries}",
+          "I want to hear {AMAZON.TVSeries} clips",
+          "I want to hear {AMAZON.TVSeries} sounds"
+        ],
+        "slots": [
+          {
+            "name": "AMAZON.TVSeries",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "PlayRandomClip",
+        "samples": [
+          "Play a random clip",
+          "Play a clip",
+          "Play me a clip",
+          "Play another clip"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "sound board"
+  }
+}
